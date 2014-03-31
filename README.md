@@ -32,3 +32,6 @@ Version History
 	* Instructions on how to install this
 	* Created a script that I can use to easily put the files where needed
 	* Not really tested yet, but getting closer
+* 0.2.0:
+	* Moved file locations
+	* Added OPC.php to repo. [Credits](https://gist.github.com/n1xim/6377328)
