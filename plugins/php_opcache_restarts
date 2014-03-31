@@ -40,7 +40,6 @@ graph_scale no
 graph_vlabel OPCache Restarts
 graph_category php
 graph_order oom_restarts hash_restarts manual_restarts
-graph_total Total
 oom_restarts.label Out Of Memory Restarts
 oom_restarts.draw LINE1
 oom_restarts.min 0
