@@ -1,0 +1,6 @@
+#/bin/bash
+
+cp munin_opcache.php /var/www/html/
+cp plugins/php* /usr/share/munin/plugins/
+
+echo 'Everything copied...';

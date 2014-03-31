@@ -36,18 +36,19 @@ if [ "$1" = "config" ] && [ "$act" = "memory" ]; then
 cat <<'EOM'
 graph_title OPCache Restarts
 graph_args -l 0 --base 1024
+graph_scale no
 graph_vlabel OPCache Restarts
 graph_category php
 graph_order oom_restarts hash_restarts manual_restarts
 graph_total Total
 oom_restarts.label Out Of Memory Restarts
-oom_restarts.draw STACK
+oom_restarts.draw LINE1
 oom_restarts.min 0
 hash_restarts.label Hash overflow restarts
-hash_restarts.draw AREA
+hash_restarts.draw LINE1
 hash_restarts.min 0
 manual_restarts.label Manual calls to opcache_reset()
-manual_restarts.draw AREA
+manual_restarts.draw LINE1
 manual_restarts.min 0
 EOM
 
