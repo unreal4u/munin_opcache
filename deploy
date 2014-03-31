@@ -1,7 +1,8 @@
 #/bin/bash
 
-cp opc.php /var/www/html/
-cp munin_opcache.php /var/www/html/
-cp plugins/php* /usr/share/munin/plugins/
+cp src/scripts/opc.php /var/www/html/
+cp src/scripts/munin_opcache.php /var/www/html/
+cp src/plugins/php* /usr/share/munin/plugins/
 
 echo 'Everything copied...';
+exit 0;
