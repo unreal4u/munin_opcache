@@ -25,7 +25,7 @@ The easiest way is to create a file called <code>php_opcache</code> in your plug
 env.URL http://example.com/munin_opcache.php
 </pre>
 
-The URL must be accesible by munin-node. 
+The URL must be accesible by munin-node. Don't forget to restart munin-node!
 
 SELinux configuration
 ----------------
